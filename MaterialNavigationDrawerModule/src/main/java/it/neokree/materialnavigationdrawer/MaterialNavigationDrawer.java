@@ -65,7 +65,7 @@ import it.neokree.materialnavigationdrawer.util.Utils;
  */
 @SuppressWarnings("unused")
 @SuppressLint("InflateParams")
-public abstract class MaterialNavigationDrawer<Fragment> extends ActionBarActivity implements MaterialSectionListener,MaterialAccount.OnAccountDataLoaded {
+public abstract class MaterialNavigationDrawer<Fragment> extends AppCompatActivity implements MaterialSectionListener,MaterialAccount.OnAccountDataLoaded {
 
     //    public static final int BOTTOM_SECTION_START = 10000;
     private static final int USER_CHANGE_TRANSITION = 500;
